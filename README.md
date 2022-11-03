@@ -56,7 +56,7 @@ conda env create --file environment.yaml
 - [CODE IMPLEMENTATION](https://github.com/JongKook-Heo/Kernel-based-Learning/blob/main/kernel_svm_fingerprint.py)
 
 ## Analysis
-6개의 데이터셋의 검증 데이터에 대해 rbf kernel의 하이퍼 파리미터 $\C$ 와 $\gamma$ 에 대한 최적의 조합을 찾은 후 테스트 데이터에 대한 성능을 비교합니다. 변수의 개수를 줄이기 위해 __PCA를 사용하여 50개의 주성분__ 을 추출한 후 모델링하였습니다.
+6개의 데이터셋의 검증 데이터에 대해 rbf kernel의 하이퍼 파리미터 $C$ 와 $\gamma$ 에 대한 최적의 조합을 찾은 후 테스트 데이터에 대한 성능을 비교합니다. 변수의 개수를 줄이기 위해 __PCA를 사용하여 50개의 주성분__ 을 추출한 후 모델링하였습니다.
 아래 그림은 분자의 표현 방식에 따른 5개 데이터에 대한 최적 파라미터의 테스트 데이터 성능입니다. 분자 데이터의 경우, 학습/검증/테스트 데이터가 서로 다른 뼈대(Scaffold)를 가진 분자들로 스플릿하기 때문에 학습/검증/테스트 데이터의 분포가 다릅니다. 따라서 ROC-AUC가 0.5가 넘지 않아도 학습이 실패했다고 단언할 수 없으니 이 점 유의하시기 바랍니다.
 <p align="center"><img src="./images/img5.PNG" width="500" height="200"></p>
 
