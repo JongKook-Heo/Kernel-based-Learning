@@ -1,0 +1,7 @@
+Data,Representation,kernel,class_weight,C,gamma,Metric,Score
+BACE,Fingerprints,rbf,balanced,0.1,0.01,ROC-AUC,0.578985507
+BACE,Descriptors,rbf,balanced,0.1,0.0001,ROC-AUC,0.5
+BBBP,Fingerprints,rbf,balanced,0.1,0.005,ROC-AUC,0.461027074
+BBBP,Descriptors,rbf,balanced,0.1,0.0001,ROC-AUC,0.5
+Lipo,Fingerprints,rbf,X,0.1,0.001,RMSE,1.272026184
+Lipo,Descriptors,rbf,X,0.1,0.0001,RMSE,20.6549919
