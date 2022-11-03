@@ -374,4 +374,4 @@ dependencies:
   - zstd=1.5.2=h19a0ad4_0
   - pip:
     - rdkit==2022.3.5
-prefix: C:\Users\korea\anaconda3\envs\BA_Chapter1
+prefix: C:\Users\korea\anaconda3\envs\BA_Chapter2
