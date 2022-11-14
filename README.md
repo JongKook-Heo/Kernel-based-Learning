@@ -29,7 +29,7 @@ Morgan Fingerprint에 대한 자세한 설명은 [링크](https://www.youtube.co
 - [Download Data](#download-data)
 - [Kernel SVM](#kernel-svm)
   * [Kernel SVM with Molecular Descriptors](#kernel-svm-with-molecular-descriptors)
-  * [Kernel SVM with Molecular Fingerprints](#kernel-svm-with-molecular-fingerprints)
+  * [Kernel SVM with Molecular Fingerprint](#kernel-svm-with-molecular-fingerprint)
 - [References](#references)
 
 # Requirements
