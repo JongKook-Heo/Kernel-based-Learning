@@ -53,7 +53,7 @@ conda env create --file environment.yaml
 - [CODE IMPLEMENTATION](https://github.com/JongKook-Heo/Kernel-based-Learning/blob/main/kernel_svm_descriptors.py)
 
 ## Kernel SVM with Molecular Fingerprint
-- [CODE IMPLEMENTATION](https://github.com/JongKook-Heo/Kernel-based-Learning/blob/main/kernel_svm_fingerprint.py)
+- [CODE IMPLEMENTATION](https://github.com/JongKook-Heo/Kernel-based-Learning/blob/main/kernel_svm_fingperprint.py)
 
 ## Analysis
 6개의 데이터셋의 검증 데이터에 대해 rbf kernel의 하이퍼 파리미터 $C$ 와 $\gamma$ 에 대한 최적의 조합을 찾은 후 테스트 데이터에 대한 성능을 비교합니다. 변수의 개수를 줄이기 위해 __PCA를 사용하여 50개의 주성분__ 을 추출한 후 모델링하였습니다.
