@@ -52,7 +52,7 @@ conda env create --file environment.yaml
 ## Kernel SVM with Molecular Descriptors
 - [CODE IMPLEMENTATION](https://github.com/JongKook-Heo/Kernel-based-Learning/blob/main/kernel_svm_descriptors.py)
 
-## Kernel SVM with Molecular Fingerprints
+## Kernel SVM with Molecular Fingerprint
 - [CODE IMPLEMENTATION](https://github.com/JongKook-Heo/Kernel-based-Learning/blob/main/kernel_svm_fingerprint.py)
 
 ## Analysis
